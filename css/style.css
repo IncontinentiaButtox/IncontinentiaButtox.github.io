@@ -1,0 +1,90 @@
+
+/* This is a comment */
+body {
+	background-color: #fa4599;
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url(../images/bg2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	box-shadow: 10px 10px 60px 10px rgba(255,255,255,0.5);
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+h1{
+text-align: center;
+font-size: 60px;
+color: darkslategrey;
+font-family: 'Shadows Into Light', cursive;
+font-weight: bold;
+text-shadow: 10px 10px 10px darkgoldenrod;
+
+}
+h2 {
+text-align: center;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: 20px;
+background-color: rgba(255,228,196,0.5);
+border-radius: 25px;
+}
+
+h3 {
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+img {
+width: 200px;
+padding: 5px;
+border: 7px dashed darkslategrey;
+border-radius: 50% 0% 50% 50%;
+display: block;
+margin: 50px auto;
+}
+
+p,
+ul,
+ol {
+	lie-height:1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	font-weight: bold;
+	color: darkslategrey;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: yellow;
+}
+
+ul li {
+	display: inline-block;
+	border-left: 2px solid black;
+	padding-left: 10px;
+	margin-left: 6px;
+}
+
+ul li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: none;
+}
+
+ul li:nth-child(3),
+ul li:nth-child(1) {
+	background: gainsboro;
+}
+
+div {
+	overflow: hidden;
+}
